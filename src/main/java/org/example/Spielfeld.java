@@ -6,7 +6,7 @@ import java.awt.*;
 public class Spielfeld extends JPanel {
     private static final int ROWS = 14;
     private static final int COLS = 20;
-    private static final int CELL_SIZE = 70;
+    private static final int CELL_SIZE = 300;
     private JPanel[][] cells;
 
     public Spielfeld() {
