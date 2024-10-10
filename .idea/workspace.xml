@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06dc5c87-1a51-4569-acca-1eb17f057cd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BackgroundPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FixedAspectRatioFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Spielfeld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SwingClientWithBackground.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
