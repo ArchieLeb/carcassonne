@@ -86,6 +86,7 @@ public class SwingClientWithBackground {
                     Spielfeld SpielfeldPanel = new Spielfeld();
                     JPanel closepanel = new JPanel();
                     closepanel.setLayout(new FlowLayout(FlowLayout.CENTER));
+                    SpielfeldPanel.setPreferredSize(new Dimension(1500, 1000));
                     //closepanel.setPreferredSize(new Dimension(300, 200));
                     //closepanel.setBorder(BorderFactory.createLineBorder(Color.black));
                     JButton closeButton = new JButton("Zurück zu Windows");
