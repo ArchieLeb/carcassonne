@@ -15,6 +15,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
+import java.awt.image.BufferedImage;
 
 public class SwingClientWithBackground {
 
@@ -87,11 +88,15 @@ public class SwingClientWithBackground {
                     JPanel closepanel = new JPanel();
                     closepanel.setLayout(new FlowLayout(FlowLayout.CENTER));
                     SpielfeldPanel.setPreferredSize(new Dimension(1500, 1000));
+                    JButton spielStartButton = new JButton("Nächste Kachel setzen");
+                    spielStartButton.setPreferredSize(new Dimension(150, 50));
+                    closepanel.add(spielStartButton);
                     //closepanel.setPreferredSize(new Dimension(300, 200));
                     //closepanel.setBorder(BorderFactory.createLineBorder(Color.black));
                     JButton closeButton = new JButton("Zurück zu Windows");
                     closeButton.setPreferredSize(new Dimension(150, 50));
                     closepanel.add(closeButton);
+
 
                     //JLabel label = new JLabel("Funktion noch nicht implementiert", SwingConstants.CENTER);
                     //label.setFont(new Font("Arial", Font.PLAIN, 20));
@@ -99,6 +104,14 @@ public class SwingClientWithBackground {
                         @Override
                         public void actionPerformed(ActionEvent e) {
                             System.exit(0);
+                        }
+                    });
+
+                    spielStartButton.addActionListener(new ActionListener() {
+
+                        @Override
+                        public void actionPerformed(ActionEvent e) {
+                            SpielfeldPanel.showRandomTilePopup(); ;
                         }
                     });
                     //gameframe.add(label, BorderLayout.CENTER);
