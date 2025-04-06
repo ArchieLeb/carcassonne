@@ -3,17 +3,19 @@ package game;
 import java.awt.image.BufferedImage;
 
 public class Tile {
-    BufferedImage image;
     String name;
-
-    public String toString(){
-        return "leer";
-    };
-
-    public BufferedImage getImage(){
-        return null;
+    public Tile(String name) {
+        this.name = name;
     }
-    public void turn(){
-
-    };
+//    BufferedImage image;
+//    public String toString(){
+//        return "leer";
+//    };
+//
+//    public BufferedImage getImage(){
+//        return null;
+//    }
+//    public void turn(){
+//
+//    };
 }
