@@ -7,6 +7,9 @@ public class Tile {
     public Tile(String name) {
         this.name = name;
     }
+    public String toString(){
+        return name;
+    }
 //    BufferedImage image;
 //    public String toString(){
 //        return "leer";
