@@ -32,7 +32,7 @@ public class Table {
                     sb.append("__");
                 else
                     sb.append(getTile(i, j).toString());
-                sb.append(" ");
+                sb.append("   ");
             }
             sb.append("\n");
         }
